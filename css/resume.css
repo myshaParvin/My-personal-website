@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+/* nav part */
+
+.nav-menu .navbar div ul li a{
+    margin-left: 40px;
+    font-size: 18px;
+}
+ .nav-menu .navbar div ul li a:hover{
+   text-decoration: underline;
+   font-size: 22px;
+   font-weight: 500;
+   color: rgb(223, 42, 10);
+}
+
+/* resume part */
+
+#resume .card{
+    border: none;
+    margin-top: 20px;
+}

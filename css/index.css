@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+div{
+    width: 1500px;
+    margin: 0;
+}
+/* nav part */
+ 
+
+ .nav-menu .navbar div ul li a{
+    margin-left: 40px;
+    font-size: 18px;
+}
+ .nav-menu .navbar div ul li a:hover{
+   text-decoration: underline;
+   font-size: 22px;
+   font-weight: 500;
+   color: rgb(223, 42, 10);
+}
+
+/* banner part */
+
+
+ .banner .social-home{
+     margin-top: 12rem;
+ }
+
+ .banner .social-home h1{
+     font-size: 3rem;
+     margin-bottom: 6rem;
+ }
+
+ .banner .social-home .button .btn{
+    padding: 8px 12px;
+ }
+
+ .banner .img-container{
+     padding-top: 100px;
+     padding-bottom: 50px;
+     padding-right: 0;
+ }
+
+ .banner .img-container img{
+    border:2px solid black;
+    border-radius: 100%;
+ }
+
+
+ .banner .img-container img:hover{
+    border:6px solid black;
+    border-radius: 100%;
+ }
+ 
